@@ -1,12 +1,12 @@
 <?php
 
-$servidor = ewr1.clusters.zeabur.com
+$servidor = "ewr1.clusters.zeabur.com"
 
-$usuario = root
+$usuario = "root"
 
-$contrasena = 3P7Rm8MY0X5agfb6tEnOde2FGu1zh4r9
+$contrasena = "3P7Rm8MY0X5agfb6tEnOde2FGu1zh4r9"
 
-$base_de_datos = zeabur
+$base_de_datos = "zeabur"
 
 $port = ":30893"
 
