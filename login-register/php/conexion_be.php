@@ -2,7 +2,7 @@
 
 $servidor = "ewr1.clusters.zeabur.com"
 
-$usuario = "root"
+$usuario = 'root'
 
 $contrasena = "3P7Rm8MY0X5agfb6tEnOde2FGu1zh4r9"
 
