@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+body{
+
+    background-image: url(../imagenes/fondo_login.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Estilos para el contenedor del rectángulo */
+.container__rectangle {
+    background: linear-gradient(135deg, #00aaff, #aaffff); /* Degradado azul-celeste */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+    text-align: center; /* Centra el texto dentro del contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Sombra sutil */
+}
+
+/* Estilos para el botón */
+.container__button input {
+    background-color: #00aaff; /* Color de fondo del botón */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.container__button input:hover {
+    background-color: #0077cc; /* Color de fondo al pasar el cursor */
+}
+
+/* Estilos para el texto */
+h1, p {
+    margin: 0;
+    color: #333; /* Color del texto */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/*trabajando en el responsive desing*/
+@media screen and (max-width: 850px){
+    main{
+        margin-top: 50px;
+    }
+
+    .caja__trasera{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+
+    }
+
+    .caja__trasera div{
+        margin: 0;
+        position: absolute;
+
+    }
+    /*formulario*/
+    .contenedor__login-register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+
+    }
+
+    .contenedor__login-register{
+        position: relative;
+        
+    }
+
+}
