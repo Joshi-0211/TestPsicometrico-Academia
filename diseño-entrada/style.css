@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../login-register/assets/imagenes/fondo_login_mejorado.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; /* Asegura que ocupe toda la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__text {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    text-align: center; /* Centra el texto dentro del contenedor */
+    background-color: rgba(0, 128, 255, 0.5); /* Fondo celeste con transparencia */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h1 {
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-size: 2em;
+    color: #fff; /* Color del texto blanco */
+}
+
+p {
+    margin-bottom: 20px; /* Espacio debajo del párrafo */
+    font-size: 1.2em;
+    color: #fff; /* Color del texto blanco */
+}
+
+.container__button input {
+    background-color: #00aaff; /* Color de fondo del botón */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.container__button input:hover {
+    background-color: #0077cc; /* Color del botón al pasar el cursor */
+}
