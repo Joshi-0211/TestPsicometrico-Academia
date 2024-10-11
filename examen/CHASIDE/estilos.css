@@ -197,17 +197,32 @@ a:hover {
 
 /*estilo del foother*/
 
-footer{
+
+footer {
     width: 100%;
     padding: 50px 0px;
-   /* *background-image: url(../imagenes/background-footer.svg);
-    *background-size: cover;*/
-    background-color: #d0f0f8;
-    -webkit-mask-image: url("../../eleccion-examen/imagenes/background-footer.svg") ;
-    mask-image: url("../../eleccion-examen/imagenes/background-footer.svg");
+    background-color: #d0f0f8; /* Color de fondo aplicado */
+
+    /* Respaldo en caso de que el navegador no soporte `mask-image` */
+    background-image: url("../imagenes/background-footer.svg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    /* Máscara para navegadores basados en WebKit y otros navegadores */
+    -webkit-mask-image: url("../imagenes/background-footer.svg");
+    mask-image: url("../imagenes/background-footer.svg");
+
+    /* Aseguramos que el tamaño de la máscara cubra todo el footer */
     -webkit-mask-size: cover;
     mask-size: cover;
+    -webkit-mask-position: top;
+    mask-position: top;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
 }
+
+
 
 .container__footer{
     display: flex;
@@ -227,6 +242,18 @@ footer{
 .box__footer .logo img{
     width: 100px;
 }
+
+
+.box__footer .patrocinadores img {
+    width: 75px; /* Ajusta el tamaño de las imágenes */
+    opacity: 0.5; /* 50% de transparencia */
+    transition: opacity 0.3s ease; /* Suaviza la transición al hover */
+}
+
+.box__footer .patrocinadores img:hover {
+    opacity: 1; /* Las imágenes volverán a su opacidad total al pasar el mouse */
+}
+
 
 .box__footer .terms{
     max-width: 350px;
