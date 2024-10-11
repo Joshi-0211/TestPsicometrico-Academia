@@ -210,8 +210,8 @@ footer {
     background-repeat: no-repeat;
 
     /* Máscara para navegadores basados en WebKit y otros navegadores */
-    -webkit-mask-image: url("../imagenes/background-footer.svg");
-    mask-image: url("../imagenes/background-footer.svg");
+    -webkit-mask-image: url("../../eleccion-examen/imagenes/background-footer.svg");
+    mask-image: url("../../eleccion-examen/imagenes/background-footer.svg");
 
     /* Aseguramos que el tamaño de la máscara cubra todo el footer */
     -webkit-mask-size: cover;
