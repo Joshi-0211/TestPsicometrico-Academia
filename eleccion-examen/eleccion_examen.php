@@ -60,7 +60,7 @@
             <div class="container__footer">
                 <div class="box__footer">
                     <div class="logo">
-                        <img src="imagenes/loco academia transparente.png" alt="Logo academia">
+                        <img src="../../imagenes/loco academia transparente.png" alt="Logo academia">
                     </div>
                     <div class="terms">
                         <p>El Grupo de Investigación de 5to Año de la Academia Santa María se complace en presentar en su investigacion documental la aplicación web de tests vocacionales desarrollada durante el presente año académico. Esta aplicación está diseñada para ayudar a los estudiantes a descubrir sus intereses y aptitudes vocacionales, facilitando así la toma de decisiones informadas sobre su futuro académico y profesional.</p>
@@ -68,8 +68,8 @@
                     </div>
                             <div class="box__footer">
                         <div class="patrocinadores">
-                            <img src="imagenes/DH_Nana.svg" alt="DH Nana">
-                            <img src="imagenes/Raul_Alejandro.svg" alt="Raul Alejandro">
+                            <img src="../../imagenes/DH_Nana.svg" alt="DH Nana">
+                            <img src="../../imagenes/Raul_Alejandro.svg" alt="Raul Alejandro">
                      </div>
                 <div class="box__footer">
                     <h2>Desarrolladores</h2>
