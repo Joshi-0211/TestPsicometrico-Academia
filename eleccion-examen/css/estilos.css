@@ -312,8 +312,8 @@ footer{
    /* *background-image: url(../eleccion-examen/imagenes/background-footer.svg);
     *background-size: cover;*/
     background-color: #d0f0f8;
-    -webkit-mask-image: url("../imagenes/background-footer.svg") ;
-    mask-image: url("../imagenes/background-footer.svg");
+    -webkit-mask-image: url("") ;
+    mask-image: url("");
     -webkit-mask-size: cover;
     mask-size: cover;
 }
