@@ -519,7 +519,7 @@ footer{
    /* *background-image: url(../eleccion-examen/imagenes/background-footer.svg);
     *background-size: cover;*/
     background-color: #d0f0f8;
-    -webkit-mask-image: url("../eleccion-examen/imagenes/background-footer.svg") ;
+    -webkit-mask-image: url("../eleccion-examen/imagenes/background-footer.svg");
     mask-image: url("../eleccion-examen/imagenes/background-footer.svg");
     -webkit-mask-size: cover;
     mask-size: cover;
@@ -543,6 +543,18 @@ footer{
 .box__footer .logo img{
     width: 100px;
 }
+
+
+.box__footer .patrocinadores img {
+    width: 75px; /* Ajusta el tamaño de las imágenes */
+    opacity: 0.5; /* 50% de transparencia */
+    transition: opacity 0.3s ease; /* Suaviza la transición al hover */
+}
+
+.box__footer .patrocinadores img:hover {
+    opacity: 1; /* Las imágenes volverán a su opacidad total al pasar el mouse */
+}
+
 
 .box__footer .terms{
     max-width: 350px;
