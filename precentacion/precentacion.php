@@ -206,8 +206,8 @@
                     </div>
                             <div class="box__footer">
                         <div class="patrocinadores">
-                            <img src="imagenes/DH_Nana.svg" alt="DH Nana">
-                            <img src="imagenes/Raul_Alejandro.svg" alt="Raul Alejandro">
+                            <img src="../eleccion-examen/imagenes/DH_Nana.svg" alt="DH Nana">
+                            <img src="../eleccion-examen/imagenes/Raul_Alejandro.svg" alt="Raul Alejandro">
                      </div>
                 <div class="box__footer">
                     <h2>Desarrolladores</h2>
