@@ -309,25 +309,13 @@ nav ul li a{
 footer {
     width: 100%;
     padding: 50px 0px;
-    background-color: #d0f0f8; /* Color de fondo aplicado */
-
-    /* Respaldo en caso de que el navegador no soporte `mask-image` */
-    background-image: url("../imagenes/background-footer.svg");
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-
-    /* Máscara para navegadores basados en WebKit y otros navegadores */
-    -webkit-mask-image: url("../imagenes/background-footer.svg");
-    mask-image: url("../imagenes/background-footer.svg");
-
-    /* Aseguramos que el tamaño de la máscara cubra todo el footer */
+   /* *background-image: url(../eleccion-examen/imagenes/background-footer.svg);
+    *background-size: cover;*/
+    background-color: #d0f0f8;
+    -webkit-mask-image: url("../eleccion-examen/imagenes/background-footer.svg") ;
+    mask-image: url("../eleccion-examen/imagenes/background-footer.svg");
     -webkit-mask-size: cover;
     mask-size: cover;
-    -webkit-mask-position: top;
-    mask-position: top;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
 }
 
 
