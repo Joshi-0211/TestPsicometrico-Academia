@@ -48,7 +48,7 @@
                     <h2>Descubre tu carrera</h2>
                     <p>Realizar un test vocacional es fundamental para identificar las áreas de interés y las habilidades individuales, facilitando así la elección de una carrera profesional que se alinee con las aptitudes y aspiraciones personales. Estos tests ayudan a los estudiantes a tomar decisiones informadas, reduciendo el riesgo de insatisfacción y abandono académico, y aumentando las posibilidades de éxito y realización en el ámbito profesional.</p>
                     <input type="button" value="Iniciar Test" onclick="location.href='../examen/index.php'">
-                    <input type="button" value="presentación" onclick="location.href='../precentacion/precentacion.php'">
+                    <input type="button" value="Presentación" onclick="location.href='../precentacion/precentacion.php'">
                 </div>
                 <div class="container__vector">
                     <img src="imagenes/imagen 1.svg" alt="imagen movil">
