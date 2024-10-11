@@ -351,11 +351,21 @@ footer {
     width: 100px;
 }
 
-.box__footer .patrocinadores{
-    width: 75px;
-    align-items: center;
+.box__footer .patrocinadores {
     display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes */
+    margin: 20px 0; /* Espacio arriba y abajo */
+}
 
+.box__footer .patrocinadores img {
+    width: 75px; /* Ajusta el tamaño de las imágenes */
+    opacity: 0.5; /* 50% de transparencia */
+    transition: opacity 0.3s ease; /* Suaviza la transición al hover */
+}
+
+.box__footer .patrocinadores img:hover {
+    opacity: 1; /* Las imágenes volverán a su opacidad total al pasar el mouse */
 }
 
 
