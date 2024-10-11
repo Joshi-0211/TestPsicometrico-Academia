@@ -351,6 +351,13 @@ footer {
     width: 100px;
 }
 
+.box__footer .patrocinadores{
+    width: 75px;
+    align-items: center;
+    display: flex;
+
+}
+
 
 .box__footer .terms{
     max-width: 350px;
