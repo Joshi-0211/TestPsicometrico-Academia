@@ -1,5 +1,5 @@
 <?php
-
+/*
 $servidor = "ewr1.clusters.zeabur.com";  // Agregar punto y coma
 $usuario = "root";  // Agregar punto y coma
 $contrasena = "74S0v6pQzngH8Xl53eDL9RBiIUAbh2Y1";  // Agregar punto y coma

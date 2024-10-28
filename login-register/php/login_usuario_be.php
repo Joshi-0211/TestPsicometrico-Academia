@@ -1,6 +1,6 @@
 <?php 
 
-session_start();
+/*session_start();
 
  include 'conexion_be.php';
 
@@ -23,6 +23,6 @@ session_start();
             </script>
         ';
         exit;
-    }
+    }*/
 
 ?>
